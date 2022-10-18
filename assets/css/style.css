@@ -417,7 +417,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -451,6 +451,13 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+.skills-content img {
+  font-size: 3rem;
+  margin: 20px 10px;
+  max-width: 100px;
+  height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -746,7 +753,7 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
-  min-height: 320px;
+  min-height: 620px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1066,6 +1073,11 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+
+  .skills-content img {
+    max-width: 70px;
+    height: 70px;
   }
 }
 
